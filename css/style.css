@@ -12,11 +12,14 @@ body {
   color: #33475a;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .container {
   width: 70%;
   margin: auto;
-  height: 75px; /* cancellare */
-  background: red; /* cancellare */
 }
 
 .col {
@@ -28,38 +31,76 @@ body {
   display: table;;
   clear: both;
 }
+
+.button {
+  background: #ed7958;
+  border-radius: 5px;
+  font-size: 13px;
+  padding: 7px;
+}
+
+.button:hover {
+  background: rgba(237, 121, 88, 0.5);
+}
 /* ________ FINE REGOLE GENERALI ________ */
 
 /* ________ MENU FIXED E MENU ________ */
 nav .container .col {
   width: calc(100%/2);
-  height: 75px; /* cancellare */
-}
-
-nav .container .col:nth-child(1) {
-  border-right: 0.5px solid black; /* cancellare */
+  line-height: 5.5;
+  font-size: 14px;
+  font-weight: 550;
+  letter-spacing: -0.5px;
 }
 
 /* Menu Fixed */
-.fixed {
+nav.fixed {
   position: fixed;
   background: #f5f8fa;
   width: 100%;
-  height: 75px; /* cancellare */
   border-bottom: 1px solid #32495a;
+}
+
+nav.fixed .container .col.language span:nth-of-type(2) {
+  margin-left: 15px;
+  padding-left: 20px;
+  border-left: 2px solid #32495a;
+}
+
+nav.fixed .container .col.signin {
+  text-align: right;
+}
+
+nav.fixed .container .col.signin .button.login {
+  background: white;
+  color: #ed7958;
+  border: 1px solid #ed7958;
+  margin: 0 20px;
 }
 
 /* Fine Menu Fixed */
 
 /* Menu */
-.menu {
+nav.menu {
   padding-top: 75px;
-  width: 100%;
-  background-color: green; /* cancellare */
 }
 
-.menu .container { /* cancellare */
-  background: cyan;
+nav.menu .container .col.logo img {
+  vertical-align: middle;
+  width: 18%;
+}
+
+nav.menu .container .col.options {
+  text-align: right;
+}
+
+nav.menu .container .col.options ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav.menu .container .col.options ul .fas {
+  margin-left: 15px;
 }
 /* Fine Menu */
 /* ________ FINE MENU FIXED E MENU ________ */
@@ -73,7 +114,6 @@ header {
 }
 
 header .container { /* cancellare */
-  height: 500px;
   background: yellow;
 }
 
