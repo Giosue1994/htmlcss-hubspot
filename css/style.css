@@ -1,0 +1,90 @@
+/* ________ RESET ________ */
+* {
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ________ FINE RESET ________ */
+
+/* ________ REGOLE GENERALI ________ */
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #33475a;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  height: 75px; /* cancellare */
+  background: red; /* cancellare */
+}
+
+.col {
+  float: left;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;;
+  clear: both;
+}
+/* ________ FINE REGOLE GENERALI ________ */
+
+/* ________ MENU FIXED E MENU ________ */
+nav .container .col {
+  width: calc(100%/2);
+  height: 75px; /* cancellare */
+}
+
+nav .container .col:nth-child(1) {
+  border-right: 0.5px solid black; /* cancellare */
+}
+
+/* Menu Fixed */
+.fixed {
+  position: fixed;
+  background: #f5f8fa;
+  width: 100%;
+  height: 75px; /* cancellare */
+  border-bottom: 1px solid #32495a;
+}
+
+/* Fine Menu Fixed */
+
+/* Menu */
+.menu {
+  padding-top: 75px;
+  width: 100%;
+  background-color: green; /* cancellare */
+}
+
+.menu .container { /* cancellare */
+  background: cyan;
+}
+/* Fine Menu */
+/* ________ FINE MENU FIXED E MENU ________ */
+
+/* ________ HEADER ________ */
+header {
+  background-image: url(../img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 750px;
+}
+
+header .container { /* cancellare */
+  height: 500px;
+  background: yellow;
+}
+
+header .container .heading {
+  width: 50%;
+  background: pink; /* cancellare */
+}
+/* ________ FINE HEADER ________ */
+
+/* ________ MAIN ________ */
+/* ________ FINE MAIN ________ */
+
+/* ________ FOOTER ________ */
+/* ________ FINE FOOTER ________ */
