@@ -158,6 +158,10 @@ header .line {
 
 /* ________ MAIN ________ */
 /* Sezione Offerte */
+main section h2 {
+  font-size: 30px;
+}
+
 main section.offers {
   background: #f5f8fa;
   text-align: center;
@@ -175,7 +179,6 @@ main section.offers .container .text {
 }
 
 main section.offers .container .text h2 {
-  font-size: 30px;
   margin-bottom: 30px;
 }
 
@@ -279,6 +282,49 @@ main section.offers .container .col.offers .col.crm ul li i {
 /* Fine Sezione Offerte */
 
 /* Sezione Community */
+section.community {
+  background-image: linear-gradient(to right top, #00a4bc, #00abba, #00b1b5, #00b7ae, #00bda5);
+  text-align: center;
+  color: white;
+  padding-bottom: 5%;
+}
+
+section.community .container h2 {
+  padding: 40px 0;
+}
+
+section.community .container p {
+  margin-bottom: 5%;
+}
+
+section.community .container .col {
+  width: calc(100%/4);
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  padding: 2%;
+}
+
+section.community .container .col:nth-of-type(4),
+section.community .container .col:nth-of-type(8) {
+  border-right: none;
+}
+
+section.community .container .col:nth-of-type(5),
+section.community .container .col:nth-of-type(6),
+section.community .container .col:nth-of-type(7),
+section.community .container .col:nth-of-type(8) {
+  border-bottom: none;
+}
+
+section.community .container .col span {
+  display: block;
+  font-size: 40px;
+}
+
+section.community .container .col p {
+  font-size: 11px;
+  margin-top: 6%;
+}
 /* Fine Sezione Community */
 
 /* Sezione Customers */
