@@ -10,6 +10,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   color: #33475a;
+  letter-spacing: -0.5px;
 }
 
 a {
@@ -36,7 +37,7 @@ a {
   background: #ed7958;
   border-radius: 5px;
   font-size: 13px;
-  padding: 7px;
+  padding: 20px 30px;
 }
 
 .button:hover {
@@ -50,7 +51,6 @@ nav .container .col {
   line-height: 5.5;
   font-size: 14px;
   font-weight: 550;
-  letter-spacing: -0.5px;
 }
 
 /* Menu Fixed */
@@ -76,6 +76,15 @@ nav.fixed .container .col.signin .button.login {
   color: #ed7958;
   border: 1px solid #ed7958;
   margin: 0 20px;
+  padding: 7px;
+}
+
+nav.fixed .container .col.signin .button.login:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+nav.fixed .container .col.signin .button {
+  padding: 7px;
 }
 
 /* Fine Menu Fixed */
@@ -107,19 +116,38 @@ nav.menu .container .col.options ul .fas {
 
 /* ________ HEADER ________ */
 header {
+  background-color: #fdf5ef;
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
-  background-size: 100%;
-  height: 750px;
-}
-
-header .container { /* cancellare */
-  background: yellow;
+  background-position: right;
+  font-weight: 510;
 }
 
 header .container .heading {
   width: 50%;
-  background: pink; /* cancellare */
+  padding: 50px 0 150px;
+}
+
+header .container .heading h1 {
+  font-size: 40px;
+}
+
+header .container .heading p {
+  font-size: 14px;
+  line-height: 2;
+  margin: 45px 0;
+}
+
+header .container .heading p:nth-of-type(2) {
+  font-size: 11px;
+}
+
+header .line {
+  position: relative;
+  height: 75px;
+  background: #afebe4;
+  border-top: 3px solid #33475a;
+  border-bottom: 3px solid #33475a;
 }
 /* ________ FINE HEADER ________ */
 
