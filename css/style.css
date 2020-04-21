@@ -158,28 +158,33 @@ header .line {
 
 /* ________ MAIN ________ */
 /* Sezione Offerte */
-main .offers {
+main section.offers {
   background: #f5f8fa;
   text-align: center;
 }
 
-main .offers .container .text img {
+main section.offers .container .text img {
   width: 25%;
   margin-top: 50px;
 }
 
-main .offers .container .text {
+main section.offers .container .text {
   width: 80%;
   margin: auto;
   margin-bottom: 25px;
 }
 
-main .offers .container .text h2 {
+main section.offers .container .text h2 {
   font-size: 30px;
   margin-bottom: 30px;
 }
 
-main .offers .container .col.offers {
+/* impostazione colonne offers */
+main section.offers .container .row {
+  margin-bottom: 3%;
+}
+
+main section.offers .container .col.offers {
   background-color: white;
   border-radius: 5px;
   box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
@@ -187,66 +192,90 @@ main .offers .container .col.offers {
   padding: 60px 80px;
 }
 
-main .offers .container .row .col.offers {
+main section.offers .container .row .col.offers {
   padding: 30px;
+  text-align: center;
+  width: 30%;
+}
+
+main section.offers .container .row .col.offers:nth-of-type(2) {
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 main section.offers .container .col.offers img {
-  width: 90%;
+  width: 40%;
+  height: 100px;
   margin-bottom: 20px;
 }
+
+main section.offers .container .col.offers h3 {
+  font-size: 20px;
+}
+
+main section.offers .container .col.offers p {
+  margin: 20px 0;
+}
+
+main section.offers .container .col.offers hr {
+  border: 1px solid grey;
+  margin-top: 30%;
+}
+
+main section.offers .container .col.offers h4 {
+  margin: 30px 0;
+  font-size: 16px;
+}
+
+main section.offers .container .col.offers ul li {
+  list-style-type: none;
+  text-align: left;
+  margin-right: 20px;
+}
+
+main section.offers .container .col.offers a {
+  display: inline-block;
+  margin: 50px 30px 0;
+}
+/* fine impostazione colonne */
 
 /* offers orizzontale */
 main section.offers .container .col.offers .col.img {
   width: 25%;
-  padding: 0 40px;
   margin-right: 8%;
 }
 
-main section.offers .container .col.offers .col.img a {
-  display: block;
+main section.offers .container .col.offers .col.img img {
+  width: 60%;
 }
 
-main section.offers .container .col.offers .col.crm{
+main section.offers .container .col.offers .col.img a {
+  margin-top: 0;
+}
+
+main section.offers .container .col.offers .col.crm {
   width: 65%;
   padding-left: 0;
   text-align: left;
 }
 
-main section.offers .container .col.offers .col.crm h3 {
-  font-size: 20px;
-}
-
-main section.offers .container .col.offers .col.crm p {
-  margin: 20px 0;
+main section.offers .container .col.offers .col.crm h4 {
+  margin: 0;
 }
 
 main section.offers .container .col.offers .col.crm hr {
-  width: 65%;
+  width: 60%;
   margin: 8px 0 40px 50px;
-  border: 1px solid grey;
 }
 
 main section.offers .container .col.offers .col.crm ul li {
-  list-style-type: none;
   display: inline-block;
-  text-align: left;
-  margin-left: 20px;
-}
-
-main section.offers .container .col.offers .col.crm ul li:nth-of-type(1) {
-  margin-left: 0;
 }
 
 main section.offers .container .col.offers .col.crm ul li i {
   margin-right: 20px;
 }
 /* fine offers orizzontale */
-
-/* offers verticale */
-
-/* fine offers verticale */
-
 /* Fine Sezione Offerte */
 
 /* Sezione Community */
