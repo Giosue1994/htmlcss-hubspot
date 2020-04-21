@@ -20,6 +20,10 @@ a {
   color: white;
 }
 
+li {
+  list-style-type: none;
+}
+
 p {
   line-height: 2;
 }
@@ -231,7 +235,6 @@ main section.offers .container .col.offers h4 {
 }
 
 main section.offers .container .col.offers ul li {
-  list-style-type: none;
   text-align: left;
   margin-right: 20px;
 }
@@ -282,52 +285,102 @@ main section.offers .container .col.offers .col.crm ul li i {
 /* Fine Sezione Offerte */
 
 /* Sezione Community */
-section.community {
+main section.community {
   background-image: linear-gradient(to right top, #00a4bc, #00abba, #00b1b5, #00b7ae, #00bda5);
   text-align: center;
   color: white;
   padding-bottom: 5%;
 }
 
-section.community .container h2 {
+main section.community .container h2 {
   padding: 40px 0;
 }
 
-section.community .container p {
+main section.community .container p {
   margin-bottom: 5%;
 }
 
-section.community .container .col {
+main section.community .container .col {
   width: calc(100%/4);
   border-right: 1px solid white;
   border-bottom: 1px solid white;
   padding: 2%;
 }
 
-section.community .container .col:nth-of-type(4),
-section.community .container .col:nth-of-type(8) {
+main section.community .container .col:nth-of-type(4),
+main section.community .container .col:nth-of-type(8) {
   border-right: none;
 }
 
-section.community .container .col:nth-of-type(5),
-section.community .container .col:nth-of-type(6),
-section.community .container .col:nth-of-type(7),
-section.community .container .col:nth-of-type(8) {
+main section.community .container .col:nth-of-type(5),
+main section.community .container .col:nth-of-type(6),
+main section.community .container .col:nth-of-type(7),
+main section.community .container .col:nth-of-type(8) {
   border-bottom: none;
 }
 
-section.community .container .col span {
+main section.community .container .col span {
   display: block;
   font-size: 40px;
 }
 
-section.community .container .col p {
+ main section.community .container .col p {
   font-size: 11px;
   margin-top: 6%;
 }
 /* Fine Sezione Community */
 
 /* Sezione Customers */
+/* customers */
+main section.customers .container .row-up .col {
+  width: 30%;
+  padding: 6%;
+}
+
+main section.customers .container .row-up .col h2 {
+  font-size: 40px;
+  margin-bottom: 10%;
+}
+/* fine customers */
+
+/* aziende */
+main section.customers .container .row-up .col:nth-of-type(2) {
+  width: 70%;
+  text-align: right;
+}
+
+main section.customers .container .row-up .col ul li {
+  display: inline;
+  line-height: 5;
+}
+
+main section.customers .container .row-up .col ul li img {
+  width: 20%;
+  vertical-align: middle;
+}
+/* fine aziende */
+
+/* growing */
+main section.customers .container .row-down .col {
+  width: 50%;
+}
+
+main section.customers .container .row-down .col p {
+  margin: 45px 0;
+}
+
+main section.customers .container .row-down .col p:nth-of-type(2) {
+  font-size: 11px;
+}
+
+main section.customers .container .row-down .col:nth-of-type(2) {
+  text-align: right;
+}
+
+main section.customers .container .row-down .col img {
+  width: 50%;
+}
+/* fine growing */
 /* Fine Sezione Customers */
 /* ________ FINE MAIN ________ */
 
