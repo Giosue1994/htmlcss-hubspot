@@ -11,11 +11,17 @@ body {
   font-family: "Montserrat", sans-serif;
   color: #33475a;
   letter-spacing: -0.5px;
+  font-weight: 510;
+  font-size: 14px;
 }
 
 a {
   text-decoration: none;
   color: white;
+}
+
+p {
+  line-height: 2;
 }
 
 .container {
@@ -43,13 +49,16 @@ a {
 .button:hover {
   background: rgba(237, 121, 88, 0.5);
 }
+
+.fa-check-circle {
+  color: #ed7958;
+}
 /* ________ FINE REGOLE GENERALI ________ */
 
 /* ________ MENU FIXED E MENU ________ */
 nav .container .col {
   width: calc(100%/2);
   line-height: 5.5;
-  font-size: 14px;
   font-weight: 550;
 }
 
@@ -120,7 +129,6 @@ header {
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
   background-position: right;
-  font-weight: 510;
 }
 
 header .container .heading {
@@ -133,8 +141,6 @@ header .container .heading h1 {
 }
 
 header .container .heading p {
-  font-size: 14px;
-  line-height: 2;
   margin: 45px 0;
 }
 
@@ -143,8 +149,7 @@ header .container .heading p:nth-of-type(2) {
 }
 
 header .line {
-  position: relative;
-  height: 75px;
+  height: 80px;
   background: #afebe4;
   border-top: 3px solid #33475a;
   border-bottom: 3px solid #33475a;
@@ -152,6 +157,103 @@ header .line {
 /* ________ FINE HEADER ________ */
 
 /* ________ MAIN ________ */
+/* Sezione Offerte */
+main .offers {
+  background: #f5f8fa;
+  text-align: center;
+}
+
+main .offers .container .text img {
+  width: 25%;
+  margin-top: 50px;
+}
+
+main .offers .container .text {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+main .offers .container .text h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+main .offers .container .col.offers {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+  margin: 25px 0;
+  padding: 60px 80px;
+}
+
+main .offers .container .row .col.offers {
+  padding: 30px;
+}
+
+main section.offers .container .col.offers img {
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+/* offers orizzontale */
+main section.offers .container .col.offers .col.img {
+  width: 25%;
+  padding: 0 40px;
+  margin-right: 8%;
+}
+
+main section.offers .container .col.offers .col.img a {
+  display: block;
+}
+
+main section.offers .container .col.offers .col.crm{
+  width: 65%;
+  padding-left: 0;
+  text-align: left;
+}
+
+main section.offers .container .col.offers .col.crm h3 {
+  font-size: 20px;
+}
+
+main section.offers .container .col.offers .col.crm p {
+  margin: 20px 0;
+}
+
+main section.offers .container .col.offers .col.crm hr {
+  width: 65%;
+  margin: 8px 0 40px 50px;
+  border: 1px solid grey;
+}
+
+main section.offers .container .col.offers .col.crm ul li {
+  list-style-type: none;
+  display: inline-block;
+  text-align: left;
+  margin-left: 20px;
+}
+
+main section.offers .container .col.offers .col.crm ul li:nth-of-type(1) {
+  margin-left: 0;
+}
+
+main section.offers .container .col.offers .col.crm ul li i {
+  margin-right: 20px;
+}
+/* fine offers orizzontale */
+
+/* offers verticale */
+
+/* fine offers verticale */
+
+/* Fine Sezione Offerte */
+
+/* Sezione Community */
+/* Fine Sezione Community */
+
+/* Sezione Customers */
+/* Fine Sezione Customers */
 /* ________ FINE MAIN ________ */
 
 /* ________ FOOTER ________ */
