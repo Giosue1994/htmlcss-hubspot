@@ -352,15 +352,20 @@ main section.customers .container .row-up .col:nth-of-type(2) {
 main section.customers .container .row-up .col ul li {
   display: inline;
   line-height: 5;
+  margin: 2%;
 }
 
 main section.customers .container .row-up .col ul li img {
-  width: 20%;
+  width: 18%;
   vertical-align: middle;
 }
 /* fine aziende */
 
 /* growing */
+main section.customers .container .row-down {
+  margin-bottom: 3%;
+}
+
 main section.customers .container .row-down .col {
   width: 50%;
 }
@@ -385,4 +390,73 @@ main section.customers .container .row-down .col img {
 /* ________ FINE MAIN ________ */
 
 /* ________ FOOTER ________ */
+footer {
+  background: #224e5d;
+  color: #cbd6e2;
+}
+
+footer .container ul li,
+footer .container .row-link .col ul li ul.underlist li {
+  display: inline-block;
+}
+
+footer .container ul li a {
+  color: #cbd6e2;
+}
+/* link */
+footer .container .row-link {
+  margin-bottom: 5%;
+}
+
+footer .container .row-link .col {
+  margin-top: 3%;
+  width: calc(100%/4);
+}
+
+footer .container .row-link .col ul li {
+  line-height: 2.5;
+  display: block;
+}
+
+footer .container .row-link .col ul li:first-child {
+  font-weight: bold;
+  color: white;
+  margin-bottom: 6%;
+}
+
+footer .container .row-link .col ul li .button {
+  background: #cbd6e2;
+  color: #224e5d;
+  padding: 3%;
+  line-height: 4;
+}
+
+footer .container .row-link .col ul li .underlist li {
+  margin-right: 8%;
+}
+
+footer .container ul.language {
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+footer .container ul.language li {
+  margin-right: 3%;
+}
+/* fine link */
+
+/* copyright */
+footer .container .col {
+  width: calc(100%/2);
+  margin: 3% 0;
+}
+
+footer .container .col.policy {
+  text-align: right;
+}
+
+footer .container .col.policy li {
+  margin-left: 3%;
+}
+/* fine copyright */
 /* ________ FINE FOOTER ________ */
