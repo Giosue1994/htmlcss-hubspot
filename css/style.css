@@ -209,12 +209,12 @@ main section.offers .container .col.offers {
   background-color: white;
   border-radius: 5px;
   box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
-  margin: 25px 0;
-  padding: 60px 80px;
+  margin: 2% 0;
+  padding: 5% 5%;
 }
 
 main section.offers .container .row .col.offers {
-  padding: 30px;
+  padding: 4%;
   text-align: center;
   width: 30%;
 }
@@ -226,16 +226,16 @@ main section.offers .container .row .col.offers:nth-of-type(2) {
 
 main section.offers .container .col.offers img {
   width: 40%;
-  height: 100px;
-  margin-bottom: 20px;
+  height: 150px;
+  margin-bottom: 4%;
 }
 
 main section.offers .container .col.offers h3 {
-  font-size: 20px;
+  font-size: 160%;
 }
 
 main section.offers .container .col.offers p {
-  margin: 20px 0;
+  margin: 4% 0;
 }
 
 main section.offers .container .col.offers hr {
@@ -244,8 +244,8 @@ main section.offers .container .col.offers hr {
 }
 
 main section.offers .container .col.offers h4 {
-  margin: 30px 0;
-  font-size: 16px;
+  margin: 10% 0;
+  font-size: 115%;
 }
 
 main section.offers .container .col.offers ul li {
@@ -255,7 +255,7 @@ main section.offers .container .col.offers ul li {
 }
 
 main section.offers .container .col.offers a {
-  margin: 50px 30px 0;
+  margin: 10% 20% 0;
   display: inline-block;
 }
 /* fine impostazione colonne */
@@ -286,7 +286,11 @@ main section.offers .container .col.offers .col.crm h4 {
 
 main section.offers .container .col.offers .col.crm hr {
   width: 60%;
-  margin: 8px 0 40px 50px;
+  margin: 1% 0 6% 10%;
+}
+
+main section.offers .container .col.offers .col.crm ul {
+  display: inline-block;
 }
 
 main section.offers .container .col.offers .col.crm ul li {
@@ -308,7 +312,7 @@ main section.community {
 }
 
 main section.community .container h2 {
-  padding: 40px 0;
+  padding: 5% 0;
 }
 
 main section.community .container p {
@@ -336,11 +340,11 @@ main section.community .container .col:nth-of-type(8) {
 
 main section.community .container .col span {
   display: block;
-  font-size: 40px;
+  font-size: 300%;
 }
 
  main section.community .container .col p {
-  font-size: 11px;
+  font-size: 90%;
   margin-top: 6%;
 }
 /* Fine Sezione Community */
@@ -353,7 +357,7 @@ main section.customers .container .row-up .col {
 }
 
 main section.customers .container .row-up .col h2 {
-  font-size: 40px;
+  font-size: 300%;
   margin-bottom: 10%;
 }
 /* fine customers */
@@ -386,11 +390,11 @@ main section.customers .container .row-down .col {
 }
 
 main section.customers .container .row-down .col p {
-  margin: 45px 0;
+  margin: 10% 0;
 }
 
 main section.customers .container .row-down .col p:nth-of-type(2) {
-  font-size: 11px;
+  font-size: 90%;
 }
 
 main section.customers .container .row-down .col:nth-of-type(2) {
