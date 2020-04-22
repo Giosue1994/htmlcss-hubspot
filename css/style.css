@@ -211,6 +211,7 @@ main section.offers .container .col.offers {
   box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
   margin: 2% 0;
   padding: 5% 5%;
+  width: 100%;
 }
 
 main section.offers .container .row .col.offers {
