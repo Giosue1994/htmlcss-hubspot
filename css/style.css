@@ -12,16 +12,21 @@ body {
   color: #33475a;
   letter-spacing: -0.5px;
   font-weight: 510;
-  font-size: 14px;
+  font-size: 90%;
 }
 
 a {
   text-decoration: none;
-  color: white;
+  color: #33475a;
+}
+
+a:hover {
+  color: #ed7958;
 }
 
 li {
   list-style-type: none;
+  display: inline-block;
 }
 
 p {
@@ -46,8 +51,9 @@ p {
 .button {
   background: #ed7958;
   border-radius: 5px;
-  font-size: 13px;
-  padding: 20px 30px;
+  font-size: 90%;
+  padding: 4% 8%;
+  color: white;
 }
 
 .button:hover {
@@ -75,8 +81,8 @@ nav.fixed {
 }
 
 nav.fixed .container .col.language span:nth-of-type(2) {
-  margin-left: 15px;
-  padding-left: 20px;
+  margin-left: 3%;
+  padding-left: 4%;
   border-left: 2px solid #32495a;
 }
 
@@ -88,8 +94,8 @@ nav.fixed .container .col.signin .button.login {
   background: white;
   color: #ed7958;
   border: 1px solid #ed7958;
-  margin: 0 20px;
-  padding: 7px;
+  margin: 0 4%;
+  padding: 1.5%;
 }
 
 nav.fixed .container .col.signin .button.login:hover {
@@ -97,19 +103,27 @@ nav.fixed .container .col.signin .button.login:hover {
 }
 
 nav.fixed .container .col.signin .button {
-  padding: 7px;
+  padding: 1.5%;
 }
 
 /* Fine Menu Fixed */
 
 /* Menu */
 nav.menu {
-  padding-top: 75px;
+  padding-top: 80px;
+}
+
+nav.menu .container .col.logo {
+  width: 20%;
+}
+
+nav.menu .container .col.options {
+  width: 80%;
 }
 
 nav.menu .container .col.logo img {
   vertical-align: middle;
-  width: 18%;
+  width: 40%;
 }
 
 nav.menu .container .col.options {
@@ -118,11 +132,11 @@ nav.menu .container .col.options {
 
 nav.menu .container .col.options ul li {
   display: inline-block;
-  margin-left: 20px;
+  margin-left: 5%;
 }
 
 nav.menu .container .col.options ul .fas {
-  margin-left: 15px;
+  margin-left: 2%;
 }
 /* Fine Menu */
 /* ________ FINE MENU FIXED E MENU ________ */
@@ -136,24 +150,24 @@ header {
 }
 
 header .container .heading {
-  width: 50%;
-  padding: 50px 0 150px;
+  width: 40%;
+  padding: 4% 0 7%;
 }
 
 header .container .heading h1 {
-  font-size: 40px;
+  font-size: 300%;
 }
 
 header .container .heading p {
-  margin: 45px 0;
+  margin: 10% 0;
 }
 
 header .container .heading p:nth-of-type(2) {
-  font-size: 11px;
+  font-size: 80%;
 }
 
 header .line {
-  height: 80px;
+padding: 2%;
   background: #afebe4;
   border-top: 3px solid #33475a;
   border-bottom: 3px solid #33475a;
@@ -163,7 +177,7 @@ header .line {
 /* ________ MAIN ________ */
 /* Sezione Offerte */
 main section h2 {
-  font-size: 30px;
+  font-size: 230%;
 }
 
 main section.offers {
@@ -173,17 +187,17 @@ main section.offers {
 
 main section.offers .container .text img {
   width: 25%;
-  margin-top: 50px;
+  margin-top: 5%;
 }
 
 main section.offers .container .text {
   width: 80%;
   margin: auto;
-  margin-bottom: 25px;
+  margin-bottom: 2%;
 }
 
 main section.offers .container .text h2 {
-  margin-bottom: 30px;
+  margin-bottom: 3%;
 }
 
 /* impostazione colonne offers */
@@ -237,11 +251,12 @@ main section.offers .container .col.offers h4 {
 main section.offers .container .col.offers ul li {
   text-align: left;
   margin-right: 20px;
+  display: block;
 }
 
 main section.offers .container .col.offers a {
-  display: inline-block;
   margin: 50px 30px 0;
+  display: inline-block;
 }
 /* fine impostazione colonne */
 
@@ -393,6 +408,10 @@ main section.customers .container .row-down .col img {
 footer {
   background: #224e5d;
   color: #cbd6e2;
+}
+
+footer .container a:hover {
+  color: #0091ae;
 }
 
 footer .container ul li,
