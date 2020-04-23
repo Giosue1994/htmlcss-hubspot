@@ -18,6 +18,7 @@ body {
 a {
   text-decoration: none;
   color: #33475a;
+  transition: 0.2s ease-in-out;
 }
 
 a:hover {
@@ -78,6 +79,7 @@ nav.fixed {
   background: #f5f8fa;
   width: 100%;
   border-bottom: 1px solid #32495a;
+  z-index: 1;
 }
 
 nav.fixed .container .col.language span .fas.fa-angle-down {
@@ -216,10 +218,16 @@ main section.offers .container .row {
 main section.offers .container .col.offers {
   background-color: white;
   border-radius: 5px;
-  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.05);
   margin: 2% 0;
   padding: 5% 5%;
   width: 100%;
+  transition: 0.3s ease-in-out;
+}
+
+main section.offers .container .col.offers:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.03);
 }
 
 main section.offers .container .row .col.offers {
@@ -332,7 +340,7 @@ main section.community .container .col {
   width: calc(100%/4);
   border-right: 1px solid white;
   border-bottom: 1px solid white;
-  padding: 2%;
+  padding: 3%;
 }
 
 main section.community .container .col:nth-of-type(4),
@@ -340,10 +348,7 @@ main section.community .container .col:nth-of-type(8) {
   border-right: none;
 }
 
-main section.community .container .col:nth-of-type(5),
-main section.community .container .col:nth-of-type(6),
-main section.community .container .col:nth-of-type(7),
-main section.community .container .col:nth-of-type(8) {
+main section.community .container .col:nth-child(1n+7) {
   border-bottom: none;
 }
 
@@ -492,3 +497,32 @@ footer .container .col.policy li {
 }
 /* fine copyright */
 /* ________ FINE FOOTER ________ */
+
+/* ________ WIDGET ________ */
+.widget {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #425b76;
+  bottom: 15px;
+  right: 15px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.widget:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.widget i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: white;
+}
+/* ________ FINE WIDGET ________ */
