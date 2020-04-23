@@ -11,7 +11,7 @@ body {
   font-family: "Montserrat", sans-serif;
   color: #33475a;
   letter-spacing: -0.5px;
-  font-weight: 510;
+  font-weight: 600;
   font-size: 90%;
 }
 
@@ -69,7 +69,7 @@ p {
 nav .container .col {
   width: calc(100%/2);
   line-height: 5.5;
-  font-weight: 550;
+  font-weight: 600;
 }
 
 /* Menu Fixed */
@@ -78,6 +78,10 @@ nav.fixed {
   background: #f5f8fa;
   width: 100%;
   border-bottom: 1px solid #32495a;
+}
+
+nav.fixed .container .col.language span .fas.fa-angle-down {
+  margin-left: 5px;
 }
 
 nav.fixed .container .col.language span:nth-of-type(2) {
@@ -132,11 +136,15 @@ nav.menu .container .col.options {
 
 nav.menu .container .col.options ul li {
   display: inline-block;
-  margin-left: 5%;
+  margin-right: 5%;
 }
 
-nav.menu .container .col.options ul .fas {
-  margin-left: 2%;
+nav.menu .container .col.options ul li i {
+  margin-left: 25px;
+}
+
+nav.menu .container .col.options ul li:last-child  {
+  margin-right: 0;
 }
 /* Fine Menu */
 /* ________ FINE MENU FIXED E MENU ________ */
